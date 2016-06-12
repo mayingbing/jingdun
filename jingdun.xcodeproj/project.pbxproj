@@ -14,6 +14,7 @@
 		79186B6D1D0D3D950061970D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79186B6B1D0D3D950061970D /* LaunchScreen.storyboard */; };
 		79186B781D0D3D960061970D /* jingdunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79186B771D0D3D960061970D /* jingdunTests.m */; };
 		79186B831D0D3D960061970D /* jingdunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79186B821D0D3D960061970D /* jingdunUITests.m */; };
+		79186B921D0D45920061970D /* MaHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79186B911D0D45920061970D /* MaHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		79186B7E1D0D3D960061970D /* jingdunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jingdunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79186B821D0D3D960061970D /* jingdunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jingdunUITests.m; sourceTree = "<group>"; };
 		79186B841D0D3D960061970D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79186B901D0D45920061970D /* MaHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaHomeViewController.h; sourceTree = "<group>"; };
+		79186B911D0D45920061970D /* MaHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 			children = (
 				79186B5D1D0D3D950061970D /* AppDelegate.h */,
 				79186B5E1D0D3D950061970D /* AppDelegate.m */,
+				79186B901D0D45920061970D /* MaHomeViewController.h */,
+				79186B911D0D45920061970D /* MaHomeViewController.m */,
 				79186B691D0D3D950061970D /* Assets.xcassets */,
 				79186B6B1D0D3D950061970D /* LaunchScreen.storyboard */,
 				79186B6E1D0D3D950061970D /* Info.plist */,
@@ -197,6 +202,7 @@
 		79186B4F1D0D3D950061970D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Ma;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = yingwan;
 				TargetAttributes = {
@@ -267,6 +273,7 @@
 				79186B5F1D0D3D950061970D /* AppDelegate.m in Sources */,
 				79186B5C1D0D3D950061970D /* main.m in Sources */,
 				79186B681D0D3D950061970D /* jingdun.xcdatamodeld in Sources */,
+				79186B921D0D45920061970D /* MaHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
